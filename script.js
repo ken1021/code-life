@@ -8,7 +8,7 @@ var x = 1
 var time= setInterval(getpic,300)
 
 function getpic(){
-if(x<35){document.getElementById("a"+x).style ="background-image:url(../image/a"+x+".jpg);background-size:100% 100%;background-repeat:no-repeat;border:2px solid white"
+if(x<35){document.getElementById("a"+x).style ="background-image:url(image/a"+x+".jpg);background-size:100% 100%;background-repeat:no-repeat;border:2px solid white"
 x++
 }
 else{
